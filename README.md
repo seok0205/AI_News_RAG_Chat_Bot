@@ -14,4 +14,4 @@
 
 - 원본 데이터와 LLM으로 요약한 데이터를 각각 RAG chains를 활용해 LLM에 프롬프트 형식으로 물어본 후 결과 차이 비교.
 
-![result](./result.png)  
+![result](./picture/result.png)  
