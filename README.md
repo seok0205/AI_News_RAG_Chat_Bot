@@ -1,6 +1,6 @@
 # Chat_Bot_RAG_Agent
 
-    use AI TIMES Crawling data
+- use AI TIMES Crawling data
 
 ## 뉴스 데이터 크롤링
 
