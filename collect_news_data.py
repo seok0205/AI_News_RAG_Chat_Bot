@@ -113,7 +113,7 @@ def get_date_range(df: pd.DataFrame) -> tuple:
         print(f"날짜 처리 중 에러 발생: {e}")
         return None, None
     
-'''뉴스 기사 정보를 DF로 변환, CSV, JSON 파일로 저장'''
+'''뉴스 기사 정보를 DF로 변환, JSON 파일로 저장'''
 def save_to_files(articles: List[Dict], start_page: int, end_page: int, base_path: str = "./"):
     # DF 생성
     df = pd.DataFrame(articles)
