@@ -62,7 +62,6 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.vectorstores import FAISS
-import faiss
 
 # 임베딩 모델 지정
 embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
@@ -125,4 +124,10 @@ print(results)
 때문입니다. AI는 다양한 분야에서 혁신을 주도하고 있는 핵심 기술입니다.'}], 'summarized': [{'question': '예상되는 가장 중요한 단어는 무엇입니까?', 'answer': '이 문장에서 예상되는 가장 중요한 단어
 는 "제미나이 사이드 패널", "한국어", "구글 워크스페이스", "추가 지원", "알파 사용자", "피드백", "최적화", "60일 무료 체험판"입니다. 이 단어들은 구글 클라우드의 새로운 기능 추가와 관련된 주요 정 
 보를 제공하고 있습니다.'}]}
+
+ex 2.
+{'original': [{'question': '예상되는 가장 중요한 단어는 무엇입니까?', 'answer': '이 글에서 예상되는 가장 
+중요한 단어는 "프롬프트"입니다. AI와의 소통에서 프롬프트를 어떻게 작성하고 사용하는지가 중요한 주제로 다뤄
+지고 있기 때문입니다.'}], 'summarized': [{'question': '예상되는 가장 중요한 단어는 무엇입니까?', 'answer': '이 글에서 예상되는 가장 중요한 단어는 "AI 신뢰성"입니다. AI의 윤리적 행동 보장과 사회적 영향 관리의 중요
+성을 강조하고 있으며, 이는 국가 경쟁력에도 영향을 미치는 핵심 요소로 언급되고 있기 때문입니다.'}]}
 '''
