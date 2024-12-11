@@ -10,7 +10,7 @@
 
 ## embedding 및 RAG 성능 비교
 
-[embedding(LLM)](./embedding(LLM).py)  
+[embedding(LLM)](./embedding.py)  
 
 - 원본 데이터와 LLM으로 요약한 데이터를 각각 RAG chains를 활용해 LLM에 프롬프트 형식으로 물어본 후 결과 차이 비교.
 
