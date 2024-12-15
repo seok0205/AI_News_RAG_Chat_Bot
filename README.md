@@ -24,6 +24,8 @@
 
 ### 뉴스 데이터 크롤링
 
+> 24/12/11 완료
+
 구현 코드 : [collect_news_data](./collect_news_data.py)  
 
 - 크롤링한 데이터의 웹페이지 : [AI TIMES](https://www.aitimes.com/news/articleList.html?view_type=sm)
@@ -32,6 +34,8 @@
 
 ### embedding, Vectorstore 생성 및 RAG LLM 생성
 
+> 24/12/12 완료
+
 구현 코드 : [RAG_LLM](./RAG_LLM.py)  
 
 - 원본 데이터와 LLM으로 요약한 데이터를 각각 RAG chains를 활용해 LLM에 프롬프트 형식으로 물어본 후 결과 차이 비교.
@@ -39,6 +43,8 @@
 ![result](./picture/compare_result.JPG)  
 
 ### Streamlit으로 챗봇 구현
+
+> 24/12/14 완료
 
 ![result](./picture/chat_bot_result.JPG)  
 ![result](./picture/chat_bot_result_2.JPG)  
